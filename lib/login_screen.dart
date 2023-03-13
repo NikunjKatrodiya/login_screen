@@ -21,6 +21,7 @@ class _LoginScreenState extends State<LoginScreen> {
   XFile? image;
   final _formKey = GlobalKey<FormState>();
   var isLoading = false;
+
   submit() {
     final isValid = _formKey.currentState?.validate();
     if (!isValid!) {
