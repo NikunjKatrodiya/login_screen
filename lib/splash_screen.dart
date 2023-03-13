@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:login_screen/home_screen.dart';
 import 'package:login_screen/login_screen.dart';
-import 'package:login_screen/second_screen.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
 class SplashScreen extends StatefulWidget {
@@ -29,7 +29,7 @@ class _SplashScreenState extends State<SplashScreen> {
       Navigator.pushAndRemoveUntil(
           context,
           MaterialPageRoute(
-            builder: (context) => const SecondScreen(),
+            builder: (context) => const HomeScreen(),
           ),
           (route) => false);
     } else {

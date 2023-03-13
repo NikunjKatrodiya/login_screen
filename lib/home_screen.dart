@@ -4,14 +4,14 @@ import 'dart:io';
 import 'package:flutter/material.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
-class SecondScreen extends StatefulWidget {
-  const SecondScreen({Key? key}) : super(key: key);
+class HomeScreen extends StatefulWidget {
+  const HomeScreen({Key? key}) : super(key: key);
 
   @override
-  State<SecondScreen> createState() => _SecondScreenState();
+  State<HomeScreen> createState() => _HomeScreenState();
 }
 
-class _SecondScreenState extends State<SecondScreen> {
+class _HomeScreenState extends State<HomeScreen> {
   String email = "";
   String password = "";
   String image = "";
